@@ -1,12 +1,16 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(/backlash.jpg);
+    background-color: black;
     color: whitesmoke;
     margin: 0px;
 }
 
 .name-color {
     color: orange;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 .c-lab {
@@ -20,8 +24,13 @@ body {
     border-radius: 4px;
 }
 
-section {
+/* section {
     display: flex;
+    margin-bottom: 100px;
+} */
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -37,6 +46,32 @@ section {
     border-radius: 5px;
 }
 
-.half {
-    width: 100%;
+.ang {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    border-radius: 2px;
+}
+
+.Experiences {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+}
+
+#SC {
+    border-left: 5px solid white;
+    border-bottom: 5px solid gray;
+}
+
+#AP {
+    border-left: 5px solid whitesmoke;
+    border-bottom: 5px solid gray;
+}
+
+footer p {
+    text-align: center;
 }
